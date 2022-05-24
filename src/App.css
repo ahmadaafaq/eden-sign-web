@@ -213,9 +213,11 @@ button:hover {
 .site-main
 {
   background-color:#818a91;
-  min-height: 500px;
+  min-height: 80vh;
   margin-top: -90px;
   border: 1px solid black;
+  display: flex;
+  align-items: center;
 }
 .main-bg {
   opacity:0.5
@@ -227,11 +229,14 @@ button:hover {
   margin: 5% 0 0 0;
   padding: 0;
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 5%;
 }
 #countdown ul li {
   flex: 25%;
-  padding: 5%;
   margin: 0;
   list-style: none;
   background: #001f2f;
@@ -244,4 +249,5 @@ button:hover {
 }
 .coming-soon-text {
   margin-top: 90px;
+  color: red;
 }

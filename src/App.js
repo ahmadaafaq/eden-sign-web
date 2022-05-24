@@ -49,11 +49,11 @@ function App() {
           }}>
         <div id="countdown" className='container'>
           <div className='coming-soon-text'>
-            <ul>
-              <li><span id="days"></span>Days</li>
-              <li><span id="hours"></span>Hours</li>
-              <li><span id="minutes"></span>Minutes</li>
-              <li><span id="seconds"></span>Seconds</li>
+            <ul class="list-group">
+              <li className='list-group-item'><span id="days"></span>Days</li>
+              <li className='list-group-item'><span id="hours"></span>Hours</li>
+              <li className='list-group-item'><span id="minutes"></span>Minutes</li>
+              <li className='list-group-item'><span id="seconds"></span>Seconds</li>
             </ul>   
             <h1>Coming Soon!</h1>   
           </div>
