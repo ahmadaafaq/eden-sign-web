@@ -76,7 +76,7 @@ function App() {
               </div>
               <div className="col-xs-6 col-md-3">
                 <h6>Contact Us</h6>
-                <p><a href="mailto:edensoul.in@gmail.com">edensoul.in@gmail.com</a></p>
+                <p><a href="mailto:sales@edensoul.in">sales@edensoul.in</a></p>
               </div>
             </div>
             <hr />
