@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.00314bad.css",
-    "main.js": "/static/js/main.28a261bf.js",
+    "main.js": "/static/js/main.a7ffe21b.js",
     "static/media/salon-bg1.jpeg": "/static/media/salon-bg1.62d61c046ac2aee81930.jpeg",
     "static/media/salon-bg-header.webp": "/static/media/salon-bg-header.5011264dc053950b330d.webp",
     "index.html": "/index.html",
     "main.00314bad.css.map": "/static/css/main.00314bad.css.map",
-    "main.28a261bf.js.map": "/static/js/main.28a261bf.js.map"
+    "main.a7ffe21b.js.map": "/static/js/main.a7ffe21b.js.map"
   },
   "entrypoints": [
     "static/css/main.00314bad.css",
-    "static/js/main.28a261bf.js"
+    "static/js/main.a7ffe21b.js"
   ]
 }
