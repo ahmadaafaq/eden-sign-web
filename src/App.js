@@ -33,7 +33,7 @@ function App() {
           backgroundRepeat: 'no-repeat',
       }}>
 	      <div className="overlay">
-          <h1>Eden Soul</h1>
+          <h1>Eden Sign</h1>
           <h3>Promote your Salons and Parlours.</h3>
             <br />
             <a target="_blank" href="https://forms.gle/7p8BLAUbEv7gBT6UA">
@@ -64,7 +64,7 @@ function App() {
             <div className="row">
               <div className="col-sm-12 col-md-6">
                   <h6>About</h6>
-                  <p className="text-justify">Eden Soul is an initiative  to help the parlours and salon across the country to be listed at one single platform. Helping the customers to easily find the perfect salon as per their needs and requirements.</p>
+                  <p className="text-justify">Eden Sign is an initiative  to help the parlours and salon across the country to be listed at one single platform. Helping the customers to easily find the perfect salon as per their needs and requirements.</p>
               </div>
               <div className="col-xs-6 col-md-3">
                   <h6>Services</h6>
@@ -76,7 +76,7 @@ function App() {
               </div>
               <div className="col-xs-6 col-md-3">
                 <h6>Contact Us</h6>
-                <p><a href="mailto:sales@edensoul.in">sales@edensoul.in</a></p>
+                <p><a href="mailto:sales@edensign.in">sales@edensign.in</a></p>
               </div>
             </div>
             <hr />
@@ -84,7 +84,7 @@ function App() {
         <div className="container">
             <div className="row">
               <div className="col-md-12 col-md-6">
-                  <span className="copyright-text">Copyright &copy; 2022 All Rights Reserved by <a href="http://edensoul.in"> Eden Soul</a></span>
+                  <span className="copyright-text">Copyright &copy; 2022 All Rights Reserved by <a href="http://edensign.in"> Eden Sign</a></span>
               </div>
               {/* <div class="col-md-4 col-sm-6 col-xs-12">
                   <ul class="social-icons">
