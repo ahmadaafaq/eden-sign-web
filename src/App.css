@@ -214,38 +214,29 @@ button:hover {
 {
   background-color:#818a91;
   min-height: 80vh;
-  margin-top: -90px;
+  margin-top: -85px;
   border: 1px solid black;
-  display: flex;
   align-items: center;
 }
 .main-bg {
   opacity:0.5
 }
-#countdown {
-  max-width: 600px;
-}
-#countdown ul {
-  margin: 5% 0 0 0;
-  padding: 0;
+.slider-title {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 5%;
+  margin-top: 95px;
+  padding-top: 20px;
+  padding-left: 10px;
+  height: 55px;
 }
-#countdown ul li {
-  flex: 25%;
-  margin: 0;
-  list-style: none;
-  background: #001f2f;
-  border-radius: 5px;
-  color:#eceeef;
+.slider-title h3 {
+  font-family: cursive;
+  font-size: 30px;
+  color: floralwhite;
 }
-#countdown ul li span {
-  display: block;
-  font-size: 3rem;
+#slider {
+  max-width: 90%;
+  background: linear-gradient(#e66465, #9198e5);
+  margin-bottom: 100px;
 }
 .coming-soon-text {
   margin-top: 90px;

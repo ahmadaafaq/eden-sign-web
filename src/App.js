@@ -1,30 +1,36 @@
 import bgImage from './salon-bg1.jpeg';
 import bgHeader from './salon-bg-header.webp';
+
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+
 import './App.css';
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
+import {SalonSlider} from './Slider.component';
+import {sliderConfigFeatured, sliderConfig} from './sliderConfig';
 
 function App() {
-  const sec = 1000,
-    min = sec * 60,
-    hour = min * 60,
-    day = hour * 24;
+  // const sec = 1000,
+  //   min = sec * 60,
+  //   hour = min * 60,
+  //   day = hour * 24;
 
-  const end = new Date("Jul 31, 2022 12:00:00").getTime();
+  // const end = new Date("Jul 31, 2022 12:00:00").getTime();
 
-  useEffect(() => {
-    initTimer();
-  });
+  // useEffect(() => {
+  //   initTimer();
+  // });
 
-  const initTimer = () => {
-    setInterval(() => {
-      const current = new Date().getTime();
-      const remaining = end - current;
-      document.getElementById("days").innerText = Math.floor(remaining / day);
-      document.getElementById("hours").innerText = Math.floor( (remaining % day) / hour );
-      document.getElementById("minutes").innerText = Math.floor( (remaining % hour) / min );
-      document.getElementById("seconds").innerText = Math.floor( (remaining % min) / sec );   
-    }, 1000);
-  }
+  // const initTimer = () => {
+  //   setInterval(() => {
+  //     const current = new Date().getTime();
+  //     const remaining = end - current;
+  //     document.getElementById("days").innerText = Math.floor(remaining / day);
+  //     document.getElementById("hours").innerText = Math.floor( (remaining % day) / hour );
+  //     document.getElementById("minutes").innerText = Math.floor( (remaining % hour) / min );
+  //     document.getElementById("seconds").innerText = Math.floor( (remaining % min) / sec );   
+  //   }, 1000);
+  // }
 
   return (
     <div className="App">
@@ -45,18 +51,18 @@ function App() {
           backgroundImage: `url(${bgImage})`,
           backgroundSize: 'cover',
           backgroundRepeat: 'no-repeat',
-          height: '63vh',
           }}>
-        <div id="countdown" className='container'>
-          <div className='coming-soon-text'>
-            <ul class="list-group">
-              <li className='list-group-item'><span id="days"></span>Days</li>
-              <li className='list-group-item'><span id="hours"></span>Hours</li>
-              <li className='list-group-item'><span id="minutes"></span>Minutes</li>
-              <li className='list-group-item'><span id="seconds"></span>Seconds</li>
-            </ul>   
-            <h1>Coming Soon!</h1>   
+        <div id="slider" className='container'>
+          <div className='slider-title'>
+            <h3>Featured Salons</h3>
           </div>
+          <SalonSlider salons={sliderConfigFeatured} />
+        </div>
+        <div id="slider" className='container'>
+          <div className='slider-title'>
+            <h3>Salons</h3>
+          </div>
+          <SalonSlider salons={sliderConfig} />
         </div>
       </main>
       <footer className="site-footer">
