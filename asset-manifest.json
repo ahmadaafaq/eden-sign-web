@@ -1,15 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.00314bad.css",
-    "main.js": "/static/js/main.e9deb65e.js",
+    "main.css": "/static/css/main.5e1713e2.css",
+    "main.js": "/static/js/main.fddcdf86.js",
+    "static/media/turning-heads.png": "/static/media/turning-heads.3c18d9b36a1e70b1ca9b.png",
     "static/media/salon-bg1.jpeg": "/static/media/salon-bg1.62d61c046ac2aee81930.jpeg",
+    "static/media/Anu-Kaushik-Makeover.jpeg": "/static/media/Anu-Kaushik-Makeover.b091145789d827c432c2.jpeg",
+    "static/media/jawed-habib-hair-and-beauty-mumbai-ua27r.webp": "/static/media/jawed-habib-hair-and-beauty-mumbai-ua27r.270db813de5379ace13c.webp",
     "static/media/salon-bg-header.webp": "/static/media/salon-bg-header.5011264dc053950b330d.webp",
+    "static/media/revlon.jpeg": "/static/media/revlon.634050ddbd831564196f.jpeg",
+    "static/media/logo-wella.jpeg": "/static/media/logo-wella.f7a6e4a988129e4ad251.jpeg",
+    "static/media/mary-gold.jpeg": "/static/media/mary-gold.2d57eb09c3d237ef7ccd.jpeg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.00314bad.css.map": "/static/css/main.00314bad.css.map",
-    "main.e9deb65e.js.map": "/static/js/main.e9deb65e.js.map"
+    "main.5e1713e2.css.map": "/static/css/main.5e1713e2.css.map",
+    "main.fddcdf86.js.map": "/static/js/main.fddcdf86.js.map"
   },
   "entrypoints": [
-    "static/css/main.00314bad.css",
-    "static/js/main.e9deb65e.js"
+    "static/css/main.5e1713e2.css",
+    "static/js/main.fddcdf86.js"
   ]
 }
