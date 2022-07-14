@@ -28,7 +28,7 @@ export const SalonSlider = ({salons}) => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
-    autoplay: false,
+    autoplay: true,
   };
 
   const classes = useStyles();
