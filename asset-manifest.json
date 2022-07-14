@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5e1713e2.css",
-    "main.js": "/static/js/main.fddcdf86.js",
+    "main.js": "/static/js/main.4402ab9b.js",
     "static/media/turning-heads.png": "/static/media/turning-heads.3c18d9b36a1e70b1ca9b.png",
     "static/media/salon-bg1.jpeg": "/static/media/salon-bg1.62d61c046ac2aee81930.jpeg",
     "static/media/Anu-Kaushik-Makeover.jpeg": "/static/media/Anu-Kaushik-Makeover.b091145789d827c432c2.jpeg",
@@ -16,10 +16,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.5e1713e2.css.map": "/static/css/main.5e1713e2.css.map",
-    "main.fddcdf86.js.map": "/static/js/main.fddcdf86.js.map"
+    "main.4402ab9b.js.map": "/static/js/main.4402ab9b.js.map"
   },
   "entrypoints": [
     "static/css/main.5e1713e2.css",
-    "static/js/main.fddcdf86.js"
+    "static/js/main.4402ab9b.js"
   ]
 }
