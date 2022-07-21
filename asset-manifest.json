@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5599d165.css",
-    "main.js": "/static/js/main.2f5dc47f.js",
+    "main.css": "/static/css/main.9730f10d.css",
+    "main.js": "/static/js/main.c4252b42.js",
     "static/media/turning-heads.png": "/static/media/turning-heads.3c18d9b36a1e70b1ca9b.png",
     "static/media/salon-bg1.jpeg": "/static/media/salon-bg1.62d61c046ac2aee81930.jpeg",
     "static/media/Anu-Kaushik-Makeover.jpeg": "/static/media/Anu-Kaushik-Makeover.b091145789d827c432c2.jpeg",
@@ -15,11 +15,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.5599d165.css.map": "/static/css/main.5599d165.css.map",
-    "main.2f5dc47f.js.map": "/static/js/main.2f5dc47f.js.map"
+    "main.9730f10d.css.map": "/static/css/main.9730f10d.css.map",
+    "main.c4252b42.js.map": "/static/js/main.c4252b42.js.map"
   },
   "entrypoints": [
-    "static/css/main.5599d165.css",
-    "static/js/main.2f5dc47f.js"
+    "static/css/main.9730f10d.css",
+    "static/js/main.c4252b42.js"
   ]
 }
