@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 
 import HomeComponent from "./components/Home/HomeComponent";
 import AboutComponent from "./components/About/AboutComponent";
@@ -35,7 +35,9 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-6">
-              <h6>About</h6>
+              <Link to="about">
+                <h6>About</h6>
+              </Link>
               <p className="text-justify">
                 Eden Sign is an initiative to help the parlours and salon across
                 the country to be listed at one single platform. Helping the
