@@ -1,9 +1,9 @@
-import jawedHabib from './assets/jawed-habib-hair-and-beauty-mumbai-ua27r.webp';
-import wella from './assets/logo-wella.jpeg';
-import revlon from './assets/revlon.jpeg';
-import kaushikMakeover from './assets/Anu-Kaushik-Makeover.jpeg';
-import turningHead from './assets/turning-heads.png';
-import maryGold from './assets/mary-gold.jpeg';
+import jawedHabib from '../../assets/jawed-habib-hair-and-beauty-mumbai-ua27r.webp';
+import wella from '../../assets/logo-wella.jpeg';
+import revlon from '../../assets/revlon.jpeg';
+import kaushikMakeover from '../../assets/Anu-Kaushik-Makeover.jpeg';
+import turningHead from '../../assets/turning-heads.png';
+import maryGold from '../../assets/mary-gold.jpeg';
 
 export const sliderConfigFeatured = [
     {
