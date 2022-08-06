@@ -16,7 +16,7 @@ const HomeComponent = () => {
       >
         <div id="slider" className="container">
           <div className="slider-title">
-            <h3>Featured Salons</h3>
+            <h3>Featured</h3>
           </div>
           <SalonSlider salons={sliderConfigFeatured} />
         </div>

@@ -1,4 +1,5 @@
 import { Routes, Route, Link } from "react-router-dom";
+import { Facebook, Instagram } from "@material-ui/icons";
 
 import HomeComponent from "./components/Home/HomeComponent";
 import AboutComponent from "./components/About/AboutComponent";
@@ -58,6 +59,15 @@ function App() {
               <p>
                 <a href="mailto:sales@edensign.in">sales@edensign.in</a>
               </p>
+              <ul class="social-icons">
+                <li><a target="_blank" class="facebook" href="https://www.facebook.com/fb.edensign.in"><Facebook /></a></li>
+                {/* <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li> */}
+                <li>
+                  <a target="_blank" class="instagram" href="https://www.instagram.com/edensign.in/">
+                    <Instagram />
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
           <hr />
@@ -70,14 +80,6 @@ function App() {
                 <a href="http://edensign.in"> Eden Sign</a>
               </span>
             </div>
-            {/* <div class="col-md-4 col-sm-6 col-xs-12">
-                        <ul class="social-icons">
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-                            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-                            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-                            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                    </div> */}
           </div>
         </div>
       </footer>

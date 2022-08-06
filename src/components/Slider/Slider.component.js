@@ -59,12 +59,12 @@ export const SalonSlider = ({salons}) => {
 
   const classes = useStyles();
 
-  const randomSalons = salons.sort(() => Math.random() - 0.5);
+  // const randomSalons = salons.sort(() => Math.random() - 0.5);
 
   return (
     <Slider {...settings}>
-      {randomSalons && 
-        randomSalons.map(salon =>
+      {salons && 
+        salons.map(salon =>
           <div className={classes.card}>
               <Card className={classes.root}>
               <CardActionArea>
