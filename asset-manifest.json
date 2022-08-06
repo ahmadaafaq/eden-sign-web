@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.9730f10d.css",
-    "main.js": "/static/js/main.c4252b42.js",
+    "main.css": "/static/css/main.17f1307c.css",
+    "main.js": "/static/js/main.d2fc800a.js",
     "static/media/turning-heads.png": "/static/media/turning-heads.3c18d9b36a1e70b1ca9b.png",
+    "static/media/DSC_0042-min.jpg": "/static/media/DSC_0042-min.ccd95cfd355d64ed46fb.jpg",
+    "static/media/compressjpgDSC_0087.jpg": "/static/media/compressjpgDSC_0087.0dcce5bb3b7cc5f8f6ce.jpg",
+    "static/media/DSC_0007-min.jpg": "/static/media/DSC_0007-min.0b74657a97ac362470ae.jpg",
+    "static/media/DSC_050.jpg": "/static/media/DSC_050.ca7bdd2412a4cc1e8d9a.jpg",
     "static/media/salon-bg1.jpeg": "/static/media/salon-bg1.62d61c046ac2aee81930.jpeg",
     "static/media/Anu-Kaushik-Makeover.jpeg": "/static/media/Anu-Kaushik-Makeover.b091145789d827c432c2.jpeg",
     "static/media/jawed-habib-hair-and-beauty-mumbai-ua27r.webp": "/static/media/jawed-habib-hair-and-beauty-mumbai-ua27r.270db813de5379ace13c.webp",
@@ -15,11 +19,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.9730f10d.css.map": "/static/css/main.9730f10d.css.map",
-    "main.c4252b42.js.map": "/static/js/main.c4252b42.js.map"
+    "main.17f1307c.css.map": "/static/css/main.17f1307c.css.map",
+    "main.d2fc800a.js.map": "/static/js/main.d2fc800a.js.map"
   },
   "entrypoints": [
-    "static/css/main.9730f10d.css",
-    "static/js/main.c4252b42.js"
+    "static/css/main.17f1307c.css",
+    "static/js/main.d2fc800a.js"
   ]
 }
