@@ -8,27 +8,30 @@ import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Typography from '@material-ui/core/Typography';
+import { useNavigate } from 'react-router-dom';
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    // maxWidth: 100,
   },
   media: {
-    height: 140,
+    height: 460,
   },
   card: {
     padding: 10,
-  }
+  },
 });
 
-export const SalonSlider = ({salons}) => {
+export const SalonSlider = ({ salons }) => {
+  const navigate = useNavigate();
+  const classes = useStyles();
   var settings = {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    autoplay: true,
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    autoplay: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -57,35 +60,47 @@ export const SalonSlider = ({salons}) => {
     ]
   };
 
-  const classes = useStyles();
+  const handleClick = (id, title, address) => {
+    navigate(`/salon-detail/${title}`, {
+      replace: true, state: {
+        title: title,
+        address: address,
+        id: id,
+      }
+    });
+  }
+
+  const getSalons = () => {
+    return salons.map((salon, key) =>
+      <div className={classes.card} key={key}>
+        <Card className={classes.root}>
+          <CardActionArea>
+            <CardMedia
+              className={classes.media}
+              image={salon.img}
+              title={salon.title}
+            />
+            <CardContent onClick={() => handleClick(salon.id, salon.title, salon.address)}>
+              <Typography gutterBottom variant="h5" component="h2">
+                {salon.title}
+              </Typography>
+              <Typography variant="body2" color="textSecondary" component="p">
+                {salon.address}
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </div>
+    );
+  }
+
+  // console.log('salons=>', salons);
 
   // const randomSalons = salons.sort(() => Math.random() - 0.5);
 
   return (
     <Slider {...settings}>
-      {salons && 
-        salons.map(salon =>
-          <div className={classes.card}>
-              <Card className={classes.root}>
-              <CardActionArea>
-                <CardMedia
-                  className={classes.media}
-                  image={salon.img}
-                  title={salon.title}
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    {salon.title}
-                  </Typography>
-                  <Typography variant="body2" color="textSecondary" component="p">
-                    {salon.address}
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
-          </div>
-        )
-      }
+      {salons && getSalons()}
     </Slider>
   );
 }
