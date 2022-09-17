@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.adf54013.css",
-    "main.js": "/static/js/main.ea9a7287.js",
+    "main.js": "/static/js/main.8733ae9d.js",
     "static/media/salon-bg1.jpeg": "/static/media/salon-bg1.62d61c046ac2aee81930.jpeg",
     "static/media/salon-bg-header.webp": "/static/media/salon-bg-header.5011264dc053950b330d.webp",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -10,10 +10,10 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.adf54013.css.map": "/static/css/main.adf54013.css.map",
-    "main.ea9a7287.js.map": "/static/js/main.ea9a7287.js.map"
+    "main.8733ae9d.js.map": "/static/js/main.8733ae9d.js.map"
   },
   "entrypoints": [
     "static/css/main.adf54013.css",
-    "static/js/main.ea9a7287.js"
+    "static/js/main.8733ae9d.js"
   ]
 }
