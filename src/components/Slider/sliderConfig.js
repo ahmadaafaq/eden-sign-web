@@ -56,7 +56,7 @@ export const sliderConfig = [
     {
         id: 'revlon',
         title : 'Revlon Professionals Unisex Salon',
-        address: '46, Hotel Uberai Anand Patel Chowk,Civil Lines Bareilly U.P 243001',
+        address: 'Bisalpur Chauraha, Pilibhit Bypass Rd, Bareilly, Uttar Pradesh 243001',
         img: 'https://drive.google.com/uc?export=view&id=1IiAjwUlsQ6lV36RPPxVcShW7uaEQPQ69',
     },
     {
